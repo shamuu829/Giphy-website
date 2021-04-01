@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { GifsComponent } from './gifs/gifs.component';
 import { TrendingComponent } from './trending/trending.component';
 import { SearchComponent } from './search/search.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SearchComponent } from './search/search.component';
     NavbarComponent,
     GifsComponent,
     TrendingComponent,
-    SearchComponent
+    SearchComponent,
+    HomeComponent
     
     
   ],
